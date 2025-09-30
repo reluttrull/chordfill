@@ -1,0 +1,30 @@
+[
+    {
+        "chordName": "CM",
+        "root": "c",
+        "third": "e",
+        "fifth": "g",
+        "baseNoteValues": [0,4,7]
+    },
+    {
+        "chordName": "Cm",
+        "root": "c",
+        "third": "eb",
+        "fifth": "g",
+        "baseNoteValues": [0,3,7]
+    },
+    {
+        "chordName": "FM",
+        "root": "f",
+        "third": "a",
+        "fifth": "c",
+        "baseNoteValues": [0,5,9]
+    },
+    {
+        "chordName": "GM",
+        "root": "g",
+        "third": "b",
+        "fifth": "d",
+        "baseNoteValues": [2,7,11]
+    }
+]
