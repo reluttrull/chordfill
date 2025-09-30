@@ -3,28 +3,156 @@
         "chordName": "CM",
         "root": "c",
         "third": "e",
-        "fifth": "g",
-        "baseNoteValues": [0,4,7]
+        "fifth": "g"
     },
     {
         "chordName": "Cm",
         "root": "c",
         "third": "eb",
-        "fifth": "g",
-        "baseNoteValues": [0,3,7]
+        "fifth": "g"
+    },
+    {
+        "chordName": "C#m",
+        "root": "c#",
+        "third": "e",
+        "fifth": "g#"
+    },
+    {
+        "chordName": "DbM",
+        "root": "db",
+        "third": "f",
+        "fifth": "ab"
+    },
+    {
+        "chordName": "DM",
+        "root": "d",
+        "third": "f#",
+        "fifth": "a"
+    },
+    {
+        "chordName": "Dm",
+        "root": "d",
+        "third": "f",
+        "fifth": "a"
+    },
+    {
+        "chordName": "D#m",
+        "root": "d#",
+        "third": "f#",
+        "fifth": "a#"
+    },
+    {
+        "chordName": "EbM",
+        "root": "eb",
+        "third": "g",
+        "fifth": "bb"
+    },
+    {
+        "chordName": "Ebm",
+        "root": "eb",
+        "third": "gb",
+        "fifth": "bb"
+    },
+    {
+        "chordName": "EM",
+        "root": "e",
+        "third": "g#",
+        "fifth": "b"
+    },
+    {
+        "chordName": "Em",
+        "root": "e",
+        "third": "g",
+        "fifth": "b"
     },
     {
         "chordName": "FM",
         "root": "f",
         "third": "a",
-        "fifth": "c",
-        "baseNoteValues": [0,5,9]
+        "fifth": "c"
+    },
+    {
+        "chordName": "Fm",
+        "root": "f",
+        "third": "ab",
+        "fifth": "c"
+    },
+    {
+        "chordName": "F#M",
+        "root": "f#",
+        "third": "a#",
+        "fifth": "c#"
+    },
+    {
+        "chordName": "F#m",
+        "root": "f#",
+        "third": "a",
+        "fifth": "c#"
+    },
+    {
+        "chordName": "GbM",
+        "root": "gb",
+        "third": "bb",
+        "fifth": "db"
     },
     {
         "chordName": "GM",
         "root": "g",
         "third": "b",
-        "fifth": "d",
-        "baseNoteValues": [2,7,11]
+        "fifth": "d"
+    },
+    {
+        "chordName": "Gm",
+        "root": "g",
+        "third": "bb",
+        "fifth": "d"
+    },
+    {
+        "chordName": "G#m",
+        "root": "g#",
+        "third": "b",
+        "fifth": "d#"
+    },
+    {
+        "chordName": "AbM",
+        "root": "ab",
+        "third": "c",
+        "fifth": "eb"
+    },
+    {
+        "chordName": "AM",
+        "root": "a",
+        "third": "c#",
+        "fifth": "e"
+    },
+    {
+        "chordName": "Am",
+        "root": "a",
+        "third": "c",
+        "fifth": "e"
+    },
+    {
+        "chordName": "BbM",
+        "root": "bb",
+        "third": "d",
+        "fifth": "f"
+    },
+    {
+        "chordName": "Bbm",
+        "root": "bb",
+        "third": "db",
+        "fifth": "f"
+    },
+    {
+        "chordName": "BM",
+        "root": "b",
+        "third": "d#",
+        "fifth": "f#"
+    },
+    {
+        "chordName": "Bm",
+        "root": "b",
+        "third": "d",
+        "fifth": "f#"
     }
 ]

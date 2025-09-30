@@ -1,0 +1,70 @@
+[
+    {
+        "name": "c",
+        "baseValue": 0
+    },
+    {
+        "name": "c#",
+        "baseValue": 1
+    },
+    {
+        "name": "db",
+        "baseValue": 1
+    },
+    {
+        "name": "d",
+        "baseValue": 2
+    },
+    {
+        "name": "d#",
+        "baseValue": 3
+    },
+    {
+        "name": "eb",
+        "baseValue": 3
+    },
+    {
+        "name": "e",
+        "baseValue": 4
+    },
+    {
+        "name": "f",
+        "baseValue": 5
+    },
+    {
+        "name": "f#",
+        "baseValue": 6
+    },
+    {
+        "name": "gb",
+        "baseValue": 6
+    },
+    {
+        "name": "g",
+        "baseValue": 7
+    },
+    {
+        "name": "g#",
+        "baseValue": 8
+    },
+    {
+        "name": "ab",
+        "baseValue": 8
+    },
+    {
+        "name": "a",
+        "baseValue": 9
+    },
+    {
+        "name": "a#",
+        "baseValue": 10
+    },
+    {
+        "name": "bb",
+        "baseValue": 10
+    },
+    {
+        "name": "b",
+        "baseValue": 11
+    }
+]
