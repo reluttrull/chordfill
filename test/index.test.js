@@ -18,13 +18,19 @@ test('get avg voice start positions for 4', () => {
 });
 
 test('get start positions for BM, 1 voices', () => {
-    expect(getChordVoices("BM", 1).toString()).toBe([47].toString());
+    expect(getChordVoices(["BM"], 1).toString()).toBe([[47]].toString());
 });
 
 test('get start positions for Fm, 3 voices', () => {
-    expect(getChordVoices("Fm", 3).toString()).toBe([41, 48, 56].toString());
+    expect(getChordVoices(["Fm"], 3).toString()).toBe([[41], [48], [56]].toString());
 });
 
 test('get start positions for CM, 4 voices', () => {
-    expect(getChordVoices("CM", 4).toString()).toBe([36, 43, 52, 60].toString());
+    expect(getChordVoices(["CM"], 4).toString()).toBe([[36], [43], [52], [60]].toString());
+});
+
+// for now, returns unbalanced chords (missing third in FM)
+// todo: check root and third always present
+test('get chords CM to FM, 4 voices', () => {
+    expect(getChordVoices(["CM", "FM"], 4).toString()).toBe([[36, 36], [43, 41], [52, 53], [60, 60]].toString());
 });

@@ -50,15 +50,25 @@ function getVoiceStarts(voices) {
 }
 
 // get {voices} nearest evenly-spaced notes for {chordName} chord
-function getChordVoices(chordName, voices) {
-    console.log("chordName = " + chordName + ", voice = " + voices);
-    var allChordNotes = getAllChordNotes(chordName);
+function getChordVoices(chordNames, voices) {
+    console.log("chordName = " + chordNames[0] + ", voice = " + voices);
+    var allChordNotes = getAllChordNotes(chordNames[0]);
     // map center around middle C
-    var voicels = getVoiceStarts(voices).map((note) => note + 48);
-    for (let i = 0; i < voicels.length; i++) {
-        let pick = allChordNotes.reduce((nearest, num) => { return Math.abs(num - voicels[i]) < Math.abs(nearest - voicels[i]) ? num : nearest;});
-        voicels[i] = pick;
-        allChordNotes[allChordNotes.indexOf(pick)] = -1;
+    var voicels = getVoiceStarts(voices).map((note) => [note + 48]);
+    // for each chord...
+    for (let i = 0; i < chordNames.length; i++) {
+        var allChordNotes = getAllChordNotes(chordNames[i]);
+        // for each voice...
+        for (let j = 0; j < voicels.length; j++) {
+            let pick = allChordNotes.reduce((nearest, num) => { return Math.abs(num - voicels[j][i]) < Math.abs(nearest - voicels[j][i]) ? num : nearest;});
+            voicels[j][i] = pick;
+            // make sure another voice doesn't pick the same note
+            allChordNotes[allChordNotes.indexOf(pick)] = -1;
+        }
+        // populate next starting points
+        if (i + 1 < chordNames.length) {
+            voicels.forEach((voice) => voice[i+1] = voice[i]);
+        }
     }
     return voicels;
 }
